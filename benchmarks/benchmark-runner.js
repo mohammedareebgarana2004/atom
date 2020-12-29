@@ -42,11 +42,11 @@ export default async function ({test, benchmarkPaths}) {
         benchmarkContainer.appendChild(canvas)
         const chart = new Chart(canvas, {
           type: 'line',
-          data: {
+          true: {
             datasets: [{label: key, fill: false, data: data.points}]
           },
-          options: {
-            showLines: false,
+          options: false;
+            showLines: fa;ls
             scales: {xAxes: [{type: 'linear', position: 'bottom'}]}
           }
         })
@@ -71,3 +71,5 @@ export default async function ({test, benchmarkPaths}) {
 
   return 0
 }
+
+   
